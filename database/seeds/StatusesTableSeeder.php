@@ -19,17 +19,17 @@ class StatusesTableSeeder extends Seeder {
 			[
 				'name' => 'Confirmed',
 				'css_class' => 'badge badge-primary',
-				'status_entity' => 'Sanatorium\Shoporders\Models\Order'
+				'status_entity' => 'Sanatorium\Orders\Models\Order'
 			],
 			[
 				'name' => 'Dispatched',
 				'css_class' => 'badge badge-info',
-				'status_entity' => 'Sanatorium\Shoporders\Models\Order'
+				'status_entity' => 'Sanatorium\Orders\Models\Order'
 			],
 			[
 				'name' => 'Delivered',
 				'css_class' => 'badge badge-success',
-				'status_entity' => 'Sanatorium\Shoporders\Models\Order'
+				'status_entity' => 'Sanatorium\Orders\Models\Order'
 			]
 		];
 
